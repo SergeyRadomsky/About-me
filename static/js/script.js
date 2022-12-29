@@ -1,4 +1,4 @@
-function outerFunction () {
+/* function outerFunction () {
   const outer = `I see the outer variable!`;
 
   function innerFunction() {
@@ -8,7 +8,7 @@ function outerFunction () {
   return innerFunction;
 }
 
-outerFunction()();
+outerFunction()(); */
 
                                      // style="width: 100%; height: 450px; background-size:cover; border-radius: 30px;
                                      // overflow: hidden; position: absolute;/* top: -10px; left: -10px;*/ object-fit: cover">
