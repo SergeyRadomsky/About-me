@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "Roboto-Regular";
+  font-family: "Roboto";
   font-weight: 400;
   font-style: normal;
   src: local(""), url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
 }
 @font-face {
-  font-family: "Roboto-Medium";
+  font-family: "Roboto";
   font-weight: 500;
   font-style: normal;
   src: local(""), url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff");
@@ -16,6 +16,7 @@
   --color-black: #000;
   --color-blue: #34547A;
   --color-gray: #EEEFF1;
+  --color-gray-text: #727272;
   /* --color-gray2: #6F6F6F; */
   /* --color-gray3: #F6F6F8; */
   /* --color-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25); */
@@ -73,16 +74,20 @@ a {
 }
 
 .container {
-    max-width: 1150px;
+    max-width: 1179px;
     margin: 0 auto;
 }
 
 .title {
+  margin: 0 auto;
     font-weight: 500;
     font-size: 32px;
-    line-height: var(--line-height) * 37;
+    line-height: var(--line-height) * 38;
 }
-
+.text {
+  line-height: 26px;
+  color: var(--color-gray-text);
+}
 .button{
     display: block;
     display: flex;
@@ -98,4 +103,16 @@ a {
     padding: 25px 41px;
 }
 
+.section__block {
+  margin: 0 auto;
+  max-width: 620px;
+  text-align: center;
+}
+.section-block__title {
+  margin-bottom: 39px;
+  margin-left: 86px;
+}
 
+.section-block__text {
+  margin-left: 86px;
+}
