@@ -441,9 +441,40 @@ img {
 }
 
 @media (max-width: 800px) {
+  .design-section {
+    padding-bottom: 95px;
+  }
+
+  .design-section__body {
+    padding-top: 60px;
+  }
+
+  .about-me-section {
+    padding-top: 90px;
+    padding-bottom: 80px;
+  }
+
+  .projects-section {
+    padding: 75px 0;
+  }
+
+  .skills-section {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+
+  .work-section {
+    padding-top: 90px;
+    padding-bottom: 0;
+  }
+
   .video-block {
     margin: 0 auto;
-    height: 485px;
+    height: 350px;
+  }
+
+  .feadback-section {
+    padding-top: 90px;
   }
 
   .footer {
